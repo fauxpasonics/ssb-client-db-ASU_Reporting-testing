@@ -1,0 +1,16 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+
+
+
+
+
+ CREATE VIEW [prodcopy].[vw_Account] AS 
+						---- CREATED BY PROCESS ON May 18 2017  5:04PM
+						SELECT * FROM ProdCopy.Account WHERE 1=1 AND IsDeleted = 0
+
+
+
+GO
